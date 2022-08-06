@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 from spotipy.oauth2 import SpotifyOAuth
 # first I create my application on developer spotify dashboard and then save my ID and Client Secret into variables
 # yes, I know It is better to save it into environment variables but for now just simple constant variables.
-YOUR_APP_CLIENT_ID = "7f42e97de4e1425ba993cce3885a9fbb"
-YOUR_APP_CLIENT_SECRET = "15100b28891445308f593a5b41ee8ac1"
+YOUR_APP_CLIENT_ID = "your_client_ID"
+YOUR_APP_CLIENT_SECRET = "your_client_secret"
 
 
 # Now with a help of beautiful soup and request I will web-scrape out top 100 songs from a specific date
